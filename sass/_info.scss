@@ -1,0 +1,40 @@
+.info {
+  &__container {
+    background: url("../images/audience.jpg") top center/cover no-repeat;
+    display: flex;
+    margin-bottom: 10rem;
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  &__content {
+    padding: 5rem;
+    flex: 1;
+    background: var(--primary-color);
+    color: #fff;
+
+    &--heading {
+      font-size: 3.2rem;
+      margin-bottom: 1.6rem;
+      font-weight: 700;
+    }
+
+    &--text {
+      font-size: 1.92rem;
+      margin-bottom: 4rem;
+    }
+
+    ul,
+    li {
+      font-size: 1.92rem;
+      line-height: 2;
+    }
+
+    i {
+      margin-right: 0.8rem;
+      color: var(--secondary-color);
+    }
+  }
+}

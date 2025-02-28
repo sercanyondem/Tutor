@@ -1,0 +1,84 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.container-sm {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 3.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-color: #fff;
+  }
+}
+
+.section-heading {
+  max-width: 75rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.section-header {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+  text-align: center;
+}
+
+.section-text {
+  font-size: 1.92rem;
+  margin: 1.6rem auto 2.5rem;
+}
+
+.heading-border {
+  width: 6.4rem;
+  height: 0.4rem;
+  background-color: var(--primary-color);
+  margin: 0 auto 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3.2rem 2.5rem;
+  background: #fff;
+  box-shadow: 0 0.4rem 1.2rem 0 rgba(0, 0, 0, 0.3);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.inner-header {
+  background: var(--primary-color);
+  color: #fff;
+  height: 250px;
+  padding-top: 8rem;
+}
+
+.inner-header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}

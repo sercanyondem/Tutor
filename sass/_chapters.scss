@@ -1,0 +1,24 @@
+.chapters {
+  &__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.2rem;
+    margin: 5rem 0 10rem;
+
+    img {
+      width: 13rem;
+      margin-top: 1.6rem;
+    }
+
+    h3 {
+      font-size: 1.92rem;
+      font-weight: 700;
+      margin: 1.6rem 0;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 300;
+    }
+  }
+}

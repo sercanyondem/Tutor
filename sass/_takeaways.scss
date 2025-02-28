@@ -1,0 +1,19 @@
+.takeaways {
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+
+    .card {
+      flex-direction: row;
+      text-align: left;
+    }
+
+    i {
+      color: var(--primary-color);
+      margin-right: 1.6rem;
+    }
+  }
+}

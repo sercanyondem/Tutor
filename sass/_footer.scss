@@ -1,0 +1,27 @@
+.footer {
+  background: var(--dark-color);
+  color: #fff;
+  border-top: 1px solid #384653;
+  padding: 0.8rem 3.2rem;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+    margin: 3.2rem 0;
+    font-size: 1.6rem;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+}
